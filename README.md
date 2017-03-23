@@ -1,3 +1,3 @@
-### de-novo-classifier
+### anno-dbnsfp
 
-#Germline *de novo* mutation identification with classification methods.
+#Annotate non-synonymus SNPs with values found in [dbNSFP](https://sites.google.com/site/jpopgen/dbNSFP).
