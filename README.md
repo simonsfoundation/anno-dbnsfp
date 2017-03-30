@@ -17,7 +17,7 @@ anno-dbnsfp -h
 
 Create an input file with mutations to be annotated.
 ```
-    echo 'CHROM,POS,ID,REF,ALT,GENE
+echo 'CHROM,POS,ID,REF,ALT,GENE
     13,23909440,.,G,A,SACS
     21,35144452,.,G,A,ITSN1
     1,180235688,.,G,A,LHX4
