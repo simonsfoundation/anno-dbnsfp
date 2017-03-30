@@ -12,7 +12,7 @@ pip install git+git://github.com/simonsfoundaion/anno-dbnsfp.git
 
 For help
 ```
-    anno-dbnsfp -h
+anno-dbnsfp -h
 ```
 
 Create an input file with mutations to be annotated.
@@ -43,13 +43,13 @@ Create an input file with mutations to be annotated.
 Annotate
 
 ```
-    anno-dbnsfp.py --genome_build=hg19 --input_delim=csv test_mutations.csv
-    cat test_mutations.csv.ann.tsv
+anno-dbnsfp.py --genome_build=hg19 --input_delim=csv test_mutations.csv
+cat test_mutations.csv.ann.tsv
 ```
 
 To see all available dbNSFP columns
 ```
-    anno-dbnsfp.py -p test_mutations.csv 
+anno-dbnsfp.py -p test_mutations.csv 
 ```
 
 
