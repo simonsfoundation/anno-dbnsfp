@@ -6,10 +6,6 @@ if __name__ == '__main__':
         name='anno-dbnsfp',
         packages=['anno-dbnsfp'],
         version='0.1.0',
-        package_data={'anno-dbnsfp': ['denovo_classifier_model_SNP/*',
-                                   'denovo_classifier_model_INDEL/*',
-                                   'denovo_classifier_config/*', '*.sh']},
-        include_package_data=True,
         scripts=['anno-dbnsfp/anno-dbnsfp.py'],
         description='Annotaion of genomic mutations.',
         long_description='Annotate a set of single nucleotide polymorphisms\
@@ -21,13 +17,17 @@ if __name__ == '__main__':
         classifiers=[
             'Development Status :: 3 - Alpha',
             'Environment :: Console',
-            'Operating System :: OS Independent',
+            'Operating System :: 'Linux, Mac',
             'Intended Audience :: Science/Research',
             'License :: OSI Approved :: MIT License', 
             'Programming Language :: Python',
             'Topic :: Scientific/Engineering :: Bio-Informatics',
             ],
         install_requires=[
-            'pandas>=0.17.1'
+            'pandas',
+            'sqlite3',
+            'argparse',
+            'tempfile',
+            'subprocess'
         ],
     )
