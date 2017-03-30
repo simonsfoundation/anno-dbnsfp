@@ -17,7 +17,7 @@ if __name__ == '__main__':
         classifiers=[
             'Development Status :: 3 - Alpha',
             'Environment :: Console',
-            'Operating System :: 'Linux',
+            'Operating System :: Linux',
             'Intended Audience :: Science/Research',
             'License :: OSI Approved :: MIT License', 
             'Programming Language :: Python',
