@@ -36,7 +36,7 @@ echo 'CHROM,POS,ID,REF,ALT,GENE
     5,145603023,.,C,T,RBM27
     10,104596833,rs104894138,G,A,CYP17A1
     12,120436359,.,G,A,CCDC64
-    1,213145953,.,C,T,VASH2' > test-mutations.csv
+    1,213145953,.,C,T,VASH2' > test_mutations.csv
     
 ```
 
