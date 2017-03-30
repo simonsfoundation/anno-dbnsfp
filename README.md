@@ -7,7 +7,8 @@ Annotate non-synonymus SNPs with values found in [dbNSFP](https://sites.google.c
 [sqlite3](http://www.sqlite.org/download.html) must be in your PATH.
 
 ```
-pip install git+git://github.com/simonsfoundation/anno-dbnsfp.git
+pip install --user git+git://github.com/simonsfoundation/anno-dbnsfp.git
+export PATH=$PATH:~/.local/bin
 ```
 
 For help
