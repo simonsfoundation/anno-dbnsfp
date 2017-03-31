@@ -1,6 +1,6 @@
 ## _anno-dbnsfp_
 
-Annotate non-synonymus SNPs with values found in [dbNSFP](https://sites.google.com/site/jpopgen/dbNSFP).
+Annotate non-synonymous SNPs with values found in [dbNSFP](https://sites.google.com/site/jpopgen/dbNSFP).
     
 ### Installation and usage for running on Simons Foundation/Flatiron Institute cluster. 
 
