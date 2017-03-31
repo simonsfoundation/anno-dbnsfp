@@ -13,7 +13,7 @@ export PATH=$PATH:~/.local/bin
 
 For help
 ```
-anno-dbnsfp -h
+anno-dbnsfp.py -h
 ```
 
 Create an input file with mutations to be annotated.
